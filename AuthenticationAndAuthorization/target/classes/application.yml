@@ -1,0 +1,32 @@
+server:
+  port: 8080
+
+#  servlet:
+#    context-path: /api/auth 
+    
+    
+# Database configuration
+spring:
+  application:
+    name: AuthenticationAndAuthorization
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/microservices
+    username: root
+    password: Ravi@4562
+    
+  
+# Hibernate Configuration 
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties: 
+        dialect: org.hibernate.dialect.MySQL8Dialect
+ 
+        
+        
+# Microservices Configuration
+
+        
+  
